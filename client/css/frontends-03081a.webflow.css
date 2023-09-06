@@ -1285,6 +1285,16 @@ h2 {
   display: flex;
 }
 
+.div-block-our-mission.d-block {
+  display: block;
+}
+
+.div-block-our-mission.d-block.text-white {
+  color: #fff;
+  font-size: 18px;
+  line-height: 120%;
+}
+
 .div-block-2-our-mission {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
@@ -2202,6 +2212,64 @@ h2 {
   background-color: #fff;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.d-flex {
+  justify-content: space-between;
+  display: flex;
+}
+
+.text-block-45 {
+  color: #fff;
+}
+
+.div-block-497 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-direction: column;
+  display: flex;
+}
+
+.div-block-498 {
+  align-items: center;
+  display: flex;
+}
+
+.footer-menu {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.link-block-5 {
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.footer-icons {
+  justify-content: space-around;
+  display: flex;
+}
+
+.footer-icon {
+  width: 28px;
+}
+
+.tnc-title {
+  margin-top: 1rem;
+  margin-bottom: .25rem;
+  font-weight: 500;
+}
+
+.tnc-data {
+  margin-bottom: .75rem;
+}
+
+.list {
+  font-size: 16px;
 }
 
 @media screen and (min-width: 1280px) {
